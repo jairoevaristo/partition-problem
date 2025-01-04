@@ -2,61 +2,73 @@
   {
     "algorithm": "Programacao Dinamica",
     "matrix_size": "4 elementos",
-    "time_ms": 0.009946
+    "time_ms": 0.020217,
+    "memory": 289192
   },
   {
     "algorithm": "Programacao Dinamica",
     "matrix_size": "8 elementos",
-    "time_ms": 0.001892
+    "time_ms": 0.005047,
+    "memory": 294072
   },
   {
     "algorithm": "Programacao Dinamica",
     "matrix_size": "12 elementos",
-    "time_ms": 0.002582
+    "time_ms": 0.023035,
+    "memory": 294120
   },
   {
     "algorithm": "Algoritmo Guloso",
     "matrix_size": "4 elementos",
-    "time_ms": 0.00503
+    "time_ms": 0.019233,
+    "memory": 296544
   },
   {
     "algorithm": "Algoritmo Guloso",
     "matrix_size": "8 elementos",
-    "time_ms": 0.000848
+    "time_ms": 0.00653,
+    "memory": 294472
   },
   {
     "algorithm": "Algoritmo Guloso",
     "matrix_size": "12 elementos",
-    "time_ms": 0.00113
+    "time_ms": 0.0069,
+    "memory": 294664
   },
   {
     "algorithm": "Forca Bruta",
     "matrix_size": "4 elementos",
-    "time_ms": 0.000542
+    "time_ms": 0.001436,
+    "memory": 296752
   },
   {
     "algorithm": "Forca Bruta",
     "matrix_size": "8 elementos",
-    "time_ms": 0.000237
+    "time_ms": 0.001163,
+    "memory": 294664
   },
   {
     "algorithm": "Forca Bruta",
     "matrix_size": "12 elementos",
-    "time_ms": 0.00021799999999999999
+    "time_ms": 0.001297,
+    "memory": 294664
   },
   {
     "algorithm": "Divisao e Conquista",
     "matrix_size": "4 elementos",
-    "time_ms": 0.001134
+    "time_ms": 0.005267,
+    "memory": 297248
   },
   {
     "algorithm": "Divisao e Conquista",
     "matrix_size": "8 elementos",
-    "time_ms": 0.0015090000000000001
+    "time_ms": 0.0074329999999999995,
+    "memory": 295176
   },
   {
     "algorithm": "Divisao e Conquista",
     "matrix_size": "12 elementos",
-    "time_ms": 0.0025849999999999996
+    "time_ms": 0.008716999999999999,
+    "memory": 295176
   }
 ]

@@ -12,6 +12,7 @@ type TestResult struct {
 	Algorithm  string  `json:"algorithm"`
 	MatrixSize string  `json:"matrix_size"`
 	TimeMs     float64 `json:"time_ms"`
+	Memory     int64   `json:"memory"`
 }
 
 func SaveResults(results []TestResult) {
@@ -51,9 +52,10 @@ func GenerateTableTimeCompare() {
 	pdf.Line(10, 30, 200, 30)
 
 	pdf.SetFont("Arial", "B", 12)
-	pdf.Cell(80, 10, "Algoritmo")
-	pdf.Cell(60, 10, "Array de elementos")
+	pdf.Cell(70, 10, "Algoritmo")
+	pdf.Cell(50, 10, "Array de elementos")
 	pdf.Cell(40, 10, "Tempo (ms)")
+	pdf.Cell(60, 10, "Memoria (bytes)")
 	pdf.Ln(10)
 	pdf.SetFont("Arial", "", 12)
 
@@ -63,9 +65,10 @@ func GenerateTableTimeCompare() {
 			pdf.Ln(10)
 		}
 
-		pdf.Cell(80, 10, result.Algorithm)
-		pdf.Cell(60, 10, result.MatrixSize)
+		pdf.Cell(70, 10, result.Algorithm)
+		pdf.Cell(50, 10, result.MatrixSize)
 		pdf.Cell(40, 10, fmt.Sprintf("%.5f", result.TimeMs))
+		pdf.Cell(60, 10, fmt.Sprintf("%d", result.Memory))
 		pdf.Ln(10)
 
 		currentAlgorithmName = result.Algorithm
