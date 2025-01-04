@@ -14,15 +14,15 @@ func MeasureExecution(algorithm string, matrixSize string, fn func() bool) TestR
 	duration := time.Since(start).Seconds() * 1000
 	afterUsedMemory := GetMemoryUsage()
 
-	var memoryUsage int64
+	var memoryUsage float64
 
 	if afterUsedMemory > beforeUsedMemory {
-		memoryUsage = int64(afterUsedMemory - beforeUsedMemory)
+		memoryUsage = float64(afterUsedMemory-beforeUsedMemory) / (1024 * 1024)
 	}
 	if afterUsedMemory == beforeUsedMemory {
-		memoryUsage = int64(afterUsedMemory)
+		memoryUsage = float64(afterUsedMemory) / (1024 * 1024)
 	} else {
-		memoryUsage = int64(beforeUsedMemory)
+		memoryUsage = float64(beforeUsedMemory) / (1024 * 1024)
 	}
 
 	return TestResult{
@@ -39,5 +39,5 @@ func GetMemoryUsage() uint64 {
 	var memStats runtime.MemStats
 	runtime.ReadMemStats(&memStats)
 
-	return memStats.Alloc
+	return memStats.TotalAlloc
 }
