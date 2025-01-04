@@ -1,6 +1,6 @@
 # ALGORITMOS E COMPLEXIDADE COMPUTACIONAL
 
-<hr>
+<hr />
 
 ## Problema de Partição (Partition Problem)
 - Descrição: Dado um conjunto de números inteiros, determine se ele pode ser
@@ -20,6 +20,8 @@ go mod tidy
 ```bash
 go test ./test -v
 ```
+
+<hr />
 
 > [!IMPORTANT]  
 > Ao executar o comando acima irá rodar o arquivo responsável por testar as funções com a implementação dos algoritmos, após a execução será criado um arquivo `table_output.pdf` que contém uma tabela com os resultados todos tempos de execução de cada algoritmo.
