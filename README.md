@@ -16,7 +16,7 @@ mesma soma total
 go mod tidy
  ```
 
-## Para executar os testes (test/main_test.go)
+## Para executar os testes
 ```bash
 go test ./test -v
 ```
