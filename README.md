@@ -21,12 +21,12 @@ mesma soma total
 <hr />
 
 ## Para instalar as dependências
- ```bash
+ ```go
 go mod tidy
  ```
 
 ## Para executar os testes
-```bash
+```go
 go clean -testcache && go test ./test -v
 ```
 
