@@ -46,6 +46,11 @@ func GenerateTableTimeCompare() {
 	pdf.AddPage()
 
 	pdf.SetFont("Arial", "B", 12)
+	pdf.Cell(80, 10, "RELATORIO COM OS TEMPOS DE EXECUCAO")
+	pdf.Ln(20)
+	pdf.Line(10, 30, 200, 30)
+
+	pdf.SetFont("Arial", "B", 12)
 	pdf.Cell(80, 10, "Algoritmo")
 	pdf.Cell(60, 10, "Array de elementos")
 	pdf.Cell(40, 10, "Tempo (ms)")
