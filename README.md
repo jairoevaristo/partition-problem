@@ -12,11 +12,11 @@ mesma soma total
 <hr />
 
 ## Aplicabilidade do problema
- - *Divisão de Recursos Financeiros ou Materiais:* O problema de partição pode ser utilizado para verificar se é possível realizar a divisão sem sobras ou desbalanceamento.
- - *Balanceamento de Carga em Sistemas Computacionais:* Resolver o problema de partição ajuda a garantir que a carga de trabalho seja distribuída igualmente, reduzindo o tempo total de processamento.
- - *Planejamento de Produção:* O problema de partição auxilia no balanceamento da utilização das máquinas, maximizando a eficiência.
- - *Organização de Equipes ou Grupos:* O problema pode ser aplicado para garantir uma divisão justa entre as equipes.
- - *Criptografia e Teoria dos Números:* O problema de partição surge em análises e verificações de segurança e integridade de algoritmos.
+ - **Divisão de Recursos Financeiros ou Materiais:** O problema de partição pode ser utilizado para verificar se é possível realizar a divisão sem sobras ou desbalanceamento.
+ - **Balanceamento de Carga em Sistemas Computacionais:** Resolver o problema de partição ajuda a garantir que a carga de trabalho seja distribuída igualmente, reduzindo o tempo total de processamento.
+ - **Planejamento de Produção:** O problema de partição auxilia no balanceamento da utilização das máquinas, maximizando a eficiência.
+ - **Organização de Equipes ou Grupos:** O problema pode ser aplicado para garantir uma divisão justa entre as equipes.
+ - **Criptografia e Teoria dos Números:** O problema de partição surge em análises e verificações de segurança e integridade de algoritmos.
 
 <hr />
 
