@@ -27,7 +27,7 @@ go mod tidy
 
 ## Para executar os testes
 ```bash
-go test ./test -v
+go clean -testcache && go test ./test -v
 ```
 
 <hr />
