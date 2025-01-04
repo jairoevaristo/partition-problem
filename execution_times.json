@@ -1,0 +1,62 @@
+[
+  {
+    "algorithm": "Programacao Dinamica",
+    "matrix_size": "4 elementos",
+    "time_ms": 0.003792
+  },
+  {
+    "algorithm": "Programacao Dinamica",
+    "matrix_size": "8 elementos",
+    "time_ms": 0.001586
+  },
+  {
+    "algorithm": "Programacao Dinamica",
+    "matrix_size": "12 elementos",
+    "time_ms": 0.009438
+  },
+  {
+    "algorithm": "Algoritmo Guloso",
+    "matrix_size": "4 elementos",
+    "time_ms": 0.025382
+  },
+  {
+    "algorithm": "Algoritmo Guloso",
+    "matrix_size": "8 elementos",
+    "time_ms": 0.000848
+  },
+  {
+    "algorithm": "Algoritmo Guloso",
+    "matrix_size": "12 elementos",
+    "time_ms": 0.000992
+  },
+  {
+    "algorithm": "Forca Bruta",
+    "matrix_size": "4 elementos",
+    "time_ms": 0.000384
+  },
+  {
+    "algorithm": "Forca Bruta",
+    "matrix_size": "8 elementos",
+    "time_ms": 0.000212
+  },
+  {
+    "algorithm": "Forca Bruta",
+    "matrix_size": "12 elementos",
+    "time_ms": 0.00017900000000000001
+  },
+  {
+    "algorithm": "Divisao e Conquista",
+    "matrix_size": "4 elementos",
+    "time_ms": 0.000865
+  },
+  {
+    "algorithm": "Divisao e Conquista",
+    "matrix_size": "8 elementos",
+    "time_ms": 0.001044
+  },
+  {
+    "algorithm": "Divisao e Conquista",
+    "matrix_size": "12 elementos",
+    "time_ms": 0.001987
+  }
+]
