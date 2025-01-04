@@ -26,5 +26,5 @@ go test ./test -v
 > [!IMPORTANT]  
 > Ao executar o comando acima irá rodar o arquivo responsável por testar as funções com a implementação dos algoritmos, após a execução será criado um arquivo `table_output.pdf` que contém uma tabela com os resultados de todos os tempos de execução para cada algoritmo.
 
-## Funções com as implementações dos algoritmos 
+## Arquivo com a implementação dos algoritmos 
  - `internal/service/algorithm.go`
